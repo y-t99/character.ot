@@ -4,11 +4,19 @@
 
 character.ot: The term of a basic OT system is often used to mean an OT system that has the basic capability of consistency maintenance for a pair of primitive character-wise insert and delete operations. The character.ot give the support.
 
+### Install
+```shell
+npm i character.ot
+```
+
 ### Quick start
 
 #### Execute Operation
 
 ```typescript
+import * as Cot from "character.ot";
+import { OTActionName } from "character.ot";
+
 // the init document state
 let document = new Cot.Document("abc");
 // the operator action
