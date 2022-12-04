@@ -1,5 +1,6 @@
 # character.ot
 
+![npm version](https://img.shields.io/badge/npm-0.1.0-red)
 ![code coverage](https://img.shields.io/badge/coverage-94%25-brightgreen)
 
 character.ot: The term of a basic OT system is often used to mean an OT system that has the basic capability of consistency maintenance for a pair of primitive character-wise insert and delete operations. The character.ot give the support.
